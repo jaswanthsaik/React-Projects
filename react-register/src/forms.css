@@ -1,0 +1,112 @@
+.image {
+  margin-right: 200px;
+}
+
+.auth{
+  width: 90%;
+  max-width: 400px;
+  /* border: 1px solid #23d4db; */
+  padding: 20px;
+  text-align: center;
+  /* background-color: bisque; */
+}
+.auth h1{
+  color: rgb(9, 94, 123);
+  font-size: 25px;
+  text-align: left;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.auth form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 auto 10px auto;
+  
+}
+
+.auth__success{
+  padding: 10px 0;
+  background-color: hsl(147, 91%, 49%);
+  margin-bottom: 20px;
+}
+
+.auth__error{
+  padding: 10px 0;
+  background-color: hsl(0, 79%, 87%);
+  margin-bottom: 20px;
+}
+
+.auth form > input, button{
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+  background-color:cornsilk;
+  border: 1px solid green;
+}
+.auth button{
+  background-color: blue;
+  border-radius:100px;
+  width: 330px;
+ color: white;
+  /* align-items: center; */
+  /* display: flex; */
+  /* position: absolute; */
+  /* margin: auto;  */
+  /* display: block; */
+}
+a{
+  color: rgb(230, 60, 221);
+}
+a:hover{
+  color: rgb(9, 118, 124);
+}
+.auth p {
+  text-align: right;
+ 
+}
+.auth p1 {
+  font-weight: lighter;
+}
+.auth p10 {
+  margin-right: 90px;
+}
+.checkbox + span > a {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 14px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.checkbox {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.checkbox:checked::before {
+  content: '✔';
+  display: block;
+  text-align: center;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.checkbox:focus {
+  outline: none;
+  box-shadow: 0 0 2px blue;
+}
+
+.google {
+margin-top: 20px;
+}
+
+.facebook {
+margin-top: 20px;
+color: blue;
+}

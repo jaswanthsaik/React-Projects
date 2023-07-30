@@ -1,0 +1,31 @@
+.pavan nav {
+    background-color: orange;
+    width: 1710px;
+}
+.pavan h1 {
+    text-align: center;
+}
+.attendance-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  
+  .attendance-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .attendance-page-content h2 {
+    margin-bottom: 20px;
+    
+  }
+
+  .attendance-page-content p1 {
+    background-color: aqua;
+    margin-top: 20px;
+    
+  }
+  

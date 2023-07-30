@@ -1,0 +1,13 @@
+.suvi nav {
+    background-color: rgb(232, 186, 169);
+    width: 1710px;
+}
+.suvi h1 {
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+  }
+  
